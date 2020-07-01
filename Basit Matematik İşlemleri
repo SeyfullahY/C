@@ -1,0 +1,55 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+
+int main()
+{
+    int sayi1;
+    int sayi2;
+    int sayi3;
+    int sayi4;
+    int sonuc,sonuc2,sonuc4,sonuc5,sonuc6;
+    int sonuc3,sonuc31,sonuc32;
+    
+    printf("1. sayi: ");
+    scanf("%d",&sayi1);
+    
+    printf("2. sayi: ");
+    scanf("%d",&sayi2);
+    
+    printf("3. sayi: ");
+    scanf("%d",&sayi3);
+    
+    printf("4. sayi: ");
+    scanf("%d",&sayi4);
+    
+    sonuc=sayi1+sayi2+sayi3+sayi4;
+    printf("Toplam: %d\n",sonuc);
+    
+    sonuc2=sayi1*sayi2*sayi3*sayi4;
+    printf("Çarpim: %d\n",sonuc2);
+    
+    sonuc3=sonuc+sonuc2;
+    printf("Sonuclar Toplami: %d\n",sonuc3);
+    
+    sonuc31=sonuc2/sonuc;
+    printf("Sonuclar Bolumu: %d\n",sonuc31);
+    
+    sonuc32=sonuc*sonuc2;
+    printf("Sonuclar Çarpimi: %d\n",sonuc32);
+    
+    sonuc4=sonuc3+sonuc31+sonuc32;
+    printf("2.Sonuclar Toplami: %d\n",sonuc4);
+    
+    sonuc5=sonuc4*sonuc4;
+    printf("2.Sonuclar Toplaminin Karesi: %d\n",sonuc5);
+    
+    sonuc6=sonuc4;
+    printf("2.Sonuclar Toplaminin Karekoku: %.2f", sqrt(sonuc4));
+    
+    system("PAUSE");
+    
+    printf("\n\nYAZDIM, CALISIYOR :)");
+
+    return 0;
+}
